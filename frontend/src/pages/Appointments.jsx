@@ -18,7 +18,7 @@ function Appointments() {
 
     try {
       const response = await fetch(
-        "http://localhost:8080/api/appointments",
+        "https://hospitalmanagementsystem00000.onrender.com/api/appointments",
         {
           method: "POST",
           headers: {
