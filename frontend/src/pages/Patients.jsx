@@ -1,7 +1,7 @@
 
 import { useEffect, useState } from "react";
 
-const API = "http://localhost:8080/api/patients";
+const API = "https://hospitalmanagementsystem00000.onrender.com/api/patients";
 
 function Patients() {
   const emptyForm = {
